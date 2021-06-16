@@ -14,4 +14,6 @@ Tech stack :
 
 Demo Link : https://csb-toytl.netlify.app/
 
+Scrrenshots :
 
+<img src="ScreenShot1.png"/>
