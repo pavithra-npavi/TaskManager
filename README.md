@@ -17,3 +17,5 @@ Demo Link : https://csb-toytl.netlify.app/
 Scrrenshots :
 
 <img src="https://github.com/pavithra-npavi/TaskManager/blob/main/public/ScreenShot1.png" alt=""/>
+<img src="https://github.com/pavithra-npavi/TaskManager/blob/main/public/ScreenShot2.png" />
+<img src="https://github.com/pavithra-npavi/TaskManager/blob/main/public/ScreenShot3.png" />
