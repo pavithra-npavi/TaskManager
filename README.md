@@ -11,7 +11,6 @@ Tech stack :
 7. React Icons
 8. React Calendar
 
-Screen Shots :
 
 Demo Link : https://csb-toytl.netlify.app/
 
