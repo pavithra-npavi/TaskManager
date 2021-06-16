@@ -80,6 +80,9 @@ const AddTask = ({ show, toggleShow, edit, toggleEdit }) => {
     getOptionUser();
   }, [dispatch]);
 
+  const handleCancel = () => {
+    setTaskTitle("");
+  };
   return (
     <>
       <div className={styles.taskFormContainer}>
@@ -156,7 +159,7 @@ const AddTask = ({ show, toggleShow, edit, toggleEdit }) => {
           </div>
 
           <div className={styles.taskFormButton}>
-            <button>Cancel</button>
+            <button onClick={handleCancel}>Cancel</button>
             <button onClick={handleSave}>Save</button>
           </div>
         </form>
