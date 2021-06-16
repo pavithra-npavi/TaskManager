@@ -1,0 +1,149 @@
+.taskFormContainer {
+  /* border: 1px solid black; */
+  background-color: #e6f2ff;
+  margin: auto;
+  padding: 0px;
+  width: 322px;
+  height: 250px;
+  font-size: 19px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.taskDescription {
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+.taskDescription label {
+  margin-left: -200px;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.taskDescription input {
+  margin-left: 2px;
+  padding-left: 2px;
+  width: 280px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-top: 5px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding-left: 15px;
+}
+
+.taskFromDateTime {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.taskFromDateTime label {
+  margin-left: -100px;
+  letter-spacing: 1px;
+  font-size: 13px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.taskFromDateTimeInput {
+  display: flex;
+  justify-content: space-around;
+}
+
+.taskDate {
+  width: 80px;
+  position: absolute;
+  margin-top: -15px;
+  margin-left: -43px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  padding-left: 35px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.taskTime {
+  border: 1px solid lightgray;
+  /* color: red; */
+  width: 109px;
+  position: relative;
+  top: 3px;
+  left: 15px;
+  font-size: 13px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  appearance: none;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+}
+.tasklabelUserName {
+  /* border: 1px solid red; */
+  margin-left: -200px;
+  position: relative;
+  top: 15px;
+  letter-spacing: 1px;
+}
+.taskUserName {
+  font-size: 13px;
+}
+.taskUserNameSelect {
+  appearance: none;
+  background-color: white;
+  width: 298px;
+  font-size: 13px;
+  line-height: 1;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  height: 25px;
+  padding-left: 10px;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+.taskUserNameSelect:focus {
+  outline: none;
+}
+
+.taskFormDelButton {
+  margin-left: -250px;
+  margin-top: 20px;
+}
+.taskFormButton {
+  margin-top: 75px;
+  /* border: 1px solid black; */
+  margin-left: 120px;
+}
+
+.taskFormButton button {
+  margin-left: 10px;
+  width: 80px;
+  height: 30px;
+  font-size: 13px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-radius: 3px;
+
+  position: relative;
+  top: -53px;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.taskFormButton button:last-child {
+  background-color: #00cc7a;
+  color: white;
+  font-weight: bold;
+}
+
+.taskFormButton button:first-child {
+  background-color: transparent;
+}
+
+.taskFormButton button:first-child:hover {
+  background-color: #fff;
+}
+
+input:focus {
+  outline: none;
+}

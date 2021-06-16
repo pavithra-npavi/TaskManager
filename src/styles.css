@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.show-calendar {
+  display: none;
+}
+.react-calendar.hide {
+  display: none;
+}
+
+.claendar-icon {
+  position: fixed;
+  /* bottom: 8px;
+  left: 10px; */
+  width: 15px;
+  height: 15px;
+  padding-top: 5px;
+  left: 540px;
+  top: 200px;
+  z-index: 2;
+  /* border: 1px solid black; */
+}
+.react-calendar {
+  width: 280px;
+  max-width: 100%;
+  position: absolute;
+  left: 530px;
+  z-index: 3;
+  /* background: black; */
+  border: 1px solid #a0a096;
+  line-height: 1.5em;
+  font-size: 10px;
+}
+
+.time-icon {
+  position: relative;
+  left: 33px;
+  width: 13px;
+  /* border: 1px solid black; */
+  z-index: 4;
+  top: 7px;
+}

@@ -1,0 +1,19 @@
+.maincontainer {
+  border: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  width: 310px;
+  padding-left: 10px;
+  font-size: 13px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+
+  margin: auto;
+}
+
+.taskPlusIcon {
+  margin-left: -50px;
+  border-left: 1px solid lightgray;
+  width: 50px;
+  padding-top: 12px;
+}

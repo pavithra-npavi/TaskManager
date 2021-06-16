@@ -1,0 +1,37 @@
+.taskDisplay {
+  display: flex;
+  font-size: 13px;
+  margin: auto;
+  border: 1px solid lightgray;
+  width: 300px;
+  padding: 10px;
+}
+.taskDisplay p {
+  margin-top: 10px;
+  font-size: 13px;
+}
+.taskUserPic {
+  width: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+  padding-right: 10px;
+}
+.editIcon {
+  margin-left: 10px;
+  /* border: 1px solid black; */
+  width: 25px;
+  display: none;
+}
+.taskDisplay:hover .editIcon {
+  display: block;
+}
+
+.editSnooze {
+  margin-left: 2px;
+  width: 30px;
+}
+
+.editTick {
+  margin-left: 5px;
+  width: 30px;
+}
